@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mộ Nam Chi tập 1</title>
+    <!-- <link rel="icon" href="./assets/img/logo.png"> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header header-container">
+            <div class="header-left">
+
+                <div class="header_navbar">
+                    <div class="navbar_btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+
+                    <div class="navbar_overlay"></div>
+
+                    <div class="navbar_block">
+                        <span class="navbar_close">
+                            <i class="ti-close"></i>
+                        </span>
+                        <div class="navbar_user">
+                            <i class="far fa-user"></i>
+                            <span>Đăng nhập / Đăng ký</span>
+                        </div>
+
+
+                        <ul class="navbar_menu">
+                            <li class="navbar_menu-item has-submenu">
+                                <h5 class="navbar_menu-item-title">
+                                    Cài đặt cá nhân
+                                    <i class="down-icon fas fa-chevron-down"></i>
+                                    <i class="up-icon fas fa-chevron-up"></i>
+                                </h5>
+                                <div class="navbar_sub-menu">
+                                    <a href="#">Bản dịch phụ đề</a>
+                                    <a href="#">Cài đặt cá nhân</a>
+                                    <a href="#">Tiếng Việt</a>
+                                </div>
+                            </li>
+                            <li class="navbar_menu-item has-submenu">
+                                <h5 class="navbar_menu-item-title">
+                                    Danh sách phim của tôi
+                                    <i class="down-icon fas fa-chevron-down"></i>
+                                    <i class="up-icon fas fa-chevron-up"></i>
+                                </h5>
+                                <div class="navbar_sub-menu">
+                                    <a href="#">Lịch sử xem</a>
+                                    <a href="#">Sưu tập của tôi</a>
+                                </div>
+                            </li>
+                            <li class="navbar_menu-item active">
+                                <a href="./index.html" class="navbar_menu-link">
+                                    Đề xuất
+                                </a>
+                            </li>
+                            <li class="navbar_menu-item">
+                                <a href="./phimbo.html" class="navbar_menu-link">
+                                    Phim Bộ
+                                </a>
+                            </li>
+                            <li class="navbar_menu-item">
+                                <a href="#" class="navbar_menu-link">
+                                    Phim Lẻ
+                                </a>
+                            </li>
+                            <li class="navbar_menu-item">
+                                <a href="#" class="navbar_menu-link">
+                                    Light On
+                                </a>
+                            </li>
+                            <li class="navbar_menu-item">
+                                <a href="#" class="navbar_menu-link">
+                                    TV Show
+                                </a>
+                            </li>
+                            <li class="navbar_menu-item">
+                                <a href="#" class="navbar_menu-link">
+                                    Hoạt Hình
+                                </a>
+                            </li>
+                            <li class="navbar_menu-item has-submenu">
+                                <h5 class="navbar_menu-item-title">
+                                    Giới thiệu về chúng tôi
+                                    <i class="down-icon fas fa-chevron-down"></i>
+                                    <i class="up-icon fas fa-chevron-up"></i>
+                                </h5>
+                                <div class="navbar_sub-menu">
+                                    <a href="#">Thông tin công ty</a>
+                                    <a href="#">Giới thiệu dịch vụ sản phẩm</a>
+                                </div>
+                            </li>
+                            <li class="navbar_menu-item has-submenu">
+                                <h5 class="navbar_menu-item-title">
+                                    Hợp tác
+                                    <i class="down-icon fas fa-chevron-down"></i>
+                                    <i class="up-icon fas fa-chevron-up"></i>
+                                </h5>
+                                <div class="navbar_sub-menu">
+                                    <a href="#">Đăng quảng cáo</a>
+                                    <a href="#">Quan hệ kinh doanh</a>
+                                    <a href="#">Hợp tác cài đặt trước</a>
+                                </div>
+                            </li>
+                            <li class="navbar_menu-item has-submenu">
+                                <h5 class="navbar_menu-item-title">
+                                    Hỗ trợ và giúp đỡ
+                                    <i class="down-icon fas fa-chevron-down"></i>
+                                    <i class="up-icon fas fa-chevron-up"></i>
+                                </h5>
+                                <div class="navbar_sub-menu">
+                                    <a href="#">Phản ánh ý kiến</a>
+                                    <a href="#">Trung tâm phản hồi bảo mật</a>
+                                    <a href="#">Câu hỏi thường gặp</a>
+                                </div>
+                            </li>
+                            <li class="navbar_menu-item has-submenu">
+                                <h5 class="navbar_menu-item-title">
+                                    Điều khoản dịch vụ
+                                    <i class="down-icon fas fa-chevron-down"></i>
+                                    <i class="up-icon fas fa-chevron-up"></i>
+                                </h5>
+                                <div class="navbar_sub-menu">
+                                    <a href="#">Điều khoản quyền riêng tư</a>
+                                    <a href="#">Điều khoản sử dụng</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="navbar_downapp">
+                            <a href="#" class="navbar_downapp-link">
+                                <img src="./assets/img/Apple.png" alt="">
+                            </a>
+                            <a href="#" class="navbar_downapp-link">
+                                <img src="./assets/img/Google.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="header__left-logo">
+                    <a href="#">
+                        <!-- <img src="./assets/img/logo.png" alt="" class="header__logo-img"> -->
+                    </a>
+                </div>
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="./index.html" class="header__nav-link selected">
+                            Đề xuất
+                            <span class="tab-line"></span>
+
+                        </a>
+                    </li>
+                    <li class="header__nav-item"><a href="./phimbo.html" class="header__nav-link">Phim bộ</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Phim lẻ</a></li>
+                    <li class="header__nav-item header__nav-has-subnav">
+                        <a href="#" class="header__nav-link">
+                            Khác
+                            <i class="icon-down arrow fa fa-angle-down" aria-hidden="true"></i>
+                        </a>
+
+                        <ul class="header__subnav-list">
+                            <li class="header__subnav-item"><a href="#" class="header__subnav-link">Phim Hàn</a></li>
+                            <li class="header__subnav-item"><a href="#" class="header__subnav-link">Phim Trung </a></li>
+                            <li class="header__subnav-item"><a href="#" class="header__subnav-link">Phim Hài</a></li>
+                            <li class="header__subnav-item"><a href="#" class="header__subnav-link">Game show</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header-right">
+                <div class="header__search">
+                    <div class="header__search-form">
+                        <input type="text" placeholder="Tìm kiếm..." class="header__search-input">
+                        <div class="header__icon-search">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="header__search-overlay"></div>
+                    <div class="header__search-history">
+                        <div class="header__search-history--title">
+                            Lịch sử tìm kiếm
+                            <i class="fa fa-trash" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="header__search-history--tag">
+                            <a href="#" class="header__search-history--tag-link">
+                                <i class="fa fa-window-restore" aria-hidden="true"></i>
+                                ALL Videos
+                            </a>
+
+                            <a href="#" class="header__search-history--tag-link">
+                                K-Drama
+                            </a>
+
+                            <a href="#" class="header__search-history--tag-link">
+                                Japanese Anime
+                            </a>
+                        </div>
+
+                        <div class="header__search-popular">
+                            <div class="header__search-popular--title">Tìm kiếm hot</div>
+                            <div class="header__search-popular-list">
+                                <a href="#" class="header__search-popular-item">
+                                    <span class="header__search-popular-number"
+                                        style="color: rgb(240, 17, 17);">1</span>
+                                    Jirisan
+                                </a>
+                                <a href="#" class="header__search-popular-item">
+                                    <span class="header__search-popular-number"
+                                        style="color: rgb(255, 132, 34);">2</span>
+                                    BORUTO-NARUTO NEXT GENERATIONS-
+                                </a>
+                                <a href="#" class="header__search-popular-item">
+                                    <span class="header__search-popular-number"
+                                        style="color: rgb(255, 174, 0);">3</span>
+                                    Danger Zone
+                                </a>
+                                <a href="#" class="header__search-popular-item">
+                                    <span class="header__search-popular-number">4</span>
+                                    Happiness
+                                </a>
+                                <a href="#" class="header__search-popular-item">
+                                    <span class="header__search-popular-number">5</span>
+                                    One Piece
+                                </a>
+                                <a href="#" class="header__search-popular-item">
+                                    <span class="header__search-popular-number">6</span>
+                                    Naruto
+                                </a>
+                                <a href="#" class="header__search-popular-item">
+                                    <span class="header__search-popular-number">7</span>
+                                    Crush
+                                </a>
+                                <a href="#" class="header__search-popular-item">
+                                    <span class="header__search-popular-number">8</span>
+                                    Fall in Love
+                                </a>
+                                <a href="#" class="header__search-popular-item">
+                                    <span class="header__search-popular-number">9</span>
+                                    PLOT LOVE
+                                </a>
+                                <a href="#" class="header__search-popular-item">
+                                    <span class="header__search-popular-number">10</span>
+                                    Unforgettable Love
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="header__icon-wrap--focus" class="header__icon-wrap  header__nav-has-subnav">
+                    <div class="header-wrap-icon">
+                        <i class="fas fa-download" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="header__icon-hover header__subnav-list header__bookmark">
+                        <ul class="header__bookmark-list">
+                            <li class="header__bookmark-item">
+                                <i class="fa fa-play-circle" aria-hidden="true"></i>
+                                Tốc độ cao
+                            </li>
+                            <li class="header__bookmark-item">
+                                <i class="fa fa-download" aria-hidden="true"></i>
+                                Tải về
+                            </li>
+                            <li class="header__bookmark-item">
+                                <i class="fa fa-television" aria-hidden="true"></i>
+                                Xem phụ đề
+                            </li>
+                        </ul>
+                        <div class="header__bookmark-btn">
+                            <button>
+                                Tải về trải nghiệm
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="header__icon-wrap header__nav-has-subnav">
+                    <div class="header-wrap-icon">
+                        <i class="fa fa-outdent" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="header__icon-hover header__subnav-list header__outdent">
+                        <div class="header__tabs">
+                            <div class="header__tab-item active">
+                                <i class="header__tab-icon fa fa-history" aria-hidden="true"></i>
+                                Lịch sử xem
+                            </div>
+                            <div class="header__tab-item">
+                                <i class="header__tab-icon fa fa-bookmark-o" aria-hidden="true"></i>
+                                Sưu tập của tôi
+                            </div>
+
+                            <span class="line"></span>
+                        </div>
+
+                        <div class="header__tab-content">
+                            <div class="header__tab-pane active">
+                                <img style="text-align: center;" src="./assets/img/history.png" alt="">
+                                <p>Đăng nhập để quản lý lịch sử xem nội dung trên các thiết bị khác nhau</p>
+                                <div class="header__tab-btn">
+                                    <button>Đăng nhập</button>
+                                </div>
+                            </div>
+
+                            <div class="header__tab-pane">
+                                <img style="text-align: center;" src="./assets/img/history.png" alt="">
+                                <p>Login to view the videos you have save on multiple devices</p>
+                                <div class="header__tab-btn">
+                                    <button>Login</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header__icon-wrap header__nav-has-subnav">
+                    <div class="header-wrap-icon">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="header__icon-hover header__subnav-list header__language">
+                        <a href="#" class="header__language-link active">简体中文</a>
+                        <a href="#" class="header__language-link">Việt Nam</a>
+                        <a href="#" class="header__language-link">English</a>
+                    </div>
+                </div>
+
+                <div id="header__icon-wrap--login" class="header__icon-wrap header__nav-has-subnav">
+                    <div class="header-wrap-icon">
+                        <i class="fa fa-user-circle" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="header__icon-hover header__subnav-list header__user">
+                        <p>Đăng nhập để theo dõi các nội dung mới nhất</p>
+                        <div class="header__user-btn">
+                            <button>Đăng nhập</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header-vip header__nav-has-subnav">
+                    <div class="header__vip-btn">
+                        <i class="fas fa-crown" aria-hidden="true"></i>VIP
+                    </div>
+
+                    <div class="header__vip-menu header__subnav-list header__vip-before">
+                        <a href="#" class="header__vip-privileges">
+                            Quyền lợi thành viên
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                        </a>
+
+                        <div class="header__vip-privilege-list">
+                            <a href="#" class="header__vip-privilege-item">
+                                <img src="./assets/img/privilege-1.png" alt="">
+                                <span>Hỗ trợ đa nền tảng</span>
+                            </a>
+                            <a href="#" class="header__vip-privilege-item">
+                                <img src="./assets/img/privilege-2.png" alt="">
+                                <span>Blu-ray 1080P</span>
+                            </a>
+                            <a href="#" class="header__vip-privilege-item">
+                                <img src="./assets/img/privilege-3.png" alt="">
+                                <span>Nội dung độc quyền</span>
+                            </a>
+                            <a href="#" class="header__vip-privilege-item">
+                                <img src="./assets/img/privilege-4.png" alt="">
+                                <span>Không quáng cáo</span>
+                            </a>
+                        </div>
+
+                        <a href="#" class="header__vip-bank">Kích hoạt Vip chỉ 633VND/ngày</a>
+                        <a href="#" class="header__vip-vouchercode">Mã đổi quà</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="backtop-btn" onclick='window.scrollTo({top: 0, behavior: "smooth"});'>
+            <i class="fas fa-chevron-up"></i>
+        </button>
+
+
+        <div class="container container-play">
+            <div class="play-container">
+                    <div class="play_area">
+                        <div class="play_area-left">
+                            <section class="loading">
+                                <div class="loader">
+                                    <div class="dot" style="--i:0"></div>
+                                    <div class="dot" style="--i:1"></div>
+                                    <div class="dot" style="--i:2"></div>
+                                    <div class="dot" style="--i:3"></div>
+                                    <div class="dot" style="--i:4"></div>
+                                    <div class="dot" style="--i:5"></div>
+                                    <div class="dot" style="--i:6"></div>
+                                    <div class="dot" style="--i:7"></div>
+                                    <div class="dot" style="--i:0"></div>
+                                    <div class="dot" style="--i:9"></div>
+                                </div>
+                                <h2>Loading...</h2>
+                        
+                                <div class="loader">
+                                    <div class="dot" style="--i:0"></div>
+                                    <div class="dot" style="--i:1"></div>
+                                    <div class="dot" style="--i:2"></div>
+                                    <div class="dot" style="--i:3"></div>
+                                    <div class="dot" style="--i:4"></div>
+                                    <div class="dot" style="--i:5"></div>
+                                    <div class="dot" style="--i:6"></div>
+                                    <div class="dot" style="--i:7"></div>
+                                    <div class="dot" style="--i:0"></div>
+                                    <div class="dot" style="--i:9"></div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="play_area-right">
+                            <div class="play_area-title">Mộ nam chi</div>
+                            <div class="play_area-tabs">
+                                <div class="play_area-tab-item active">
+                                    <span class="play-icon"></span>
+                                    Chọn tập
+                                </div>
+                                <div class="play_area-tab-item">Nội dung đặc sắc</div>
+                            </div>
+                            <div class="play_area-tab-content">
+                                <p class="play_area-tab-desc">Chọn tập 1-32</p>
+                                <div class="play_area-tab-block">
+                                    <ul class="play_area-ep-list">
+                                        <li class="play_area-ep-item active"><a href="#" class="play_area-ep-link">1</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">2</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">3</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">4</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">5</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">6</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">7</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">8</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">9</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">10</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">11</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">12</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">13</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">14</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">15</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">15</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">17</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">18</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">18</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">19</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">20</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">21</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">22</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">23</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">24</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">25</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">26</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">27</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">28</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">29</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">30</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">31</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">32</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">33</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">34</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">35</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">36</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">37</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">38</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">39</a></li>
+                                        <li class="play_area-ep-item"><a href="#" class="play_area-ep-link">40</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="play_content">
+                        <div class="play_content-left">
+                            <div class="play_content-info">
+                                <h3 class="content-info_title">Mộ nam chi | Tập 1</h3>
+                                <div class="content-info_update">
+                                    <span>C13</span>
+                                    <span>2021</span>
+                                    <span>Cập nhật 40/40 tập</span>
+                                </div>
+                                <div class="content-info_rate">
+                                    <div class="content-info_rate-point">
+                                        <span>9.3</span>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="content-info_rate-number-person">13.3k người đã đánh giá</div>
+                                    <div class="content-info_rate-own">Tôi muốn đánh giá</div>
+                                </div>
+                                <div class="content-info_main"> 
+                                    <p class="content-info_category">
+                                        <span>Thể loại:</span>
+                                        Lãng mạn, Tình tiết
+                                    </p>
+                                    <p class="content-info_country">
+                                        <span>Khu vực:</span>
+                                        Trung quốc đại lục
+                                    </p>
+                                    <p class="content-info_voiceover">
+                                        <span>Lồng tiếng:</span>
+                                        Phổ thông
+                                    </p>
+                                    <p class="content-info_decs">
+                                        <span>Miêu tả:</span>
+                                        Mộ Nam Chi (Gia Nam Truyện) là bộ phim xoay quanh câu chuyện của nữ chính là Quận chúa Khương Bảo Ninh (Cục Tịnh Y đảm nhận) người bị hạ độc chết ở kiếp trước sau khi được gả cho hoàng đế nhưng bị lạnh nhạt, tiếp đến khi lên làm thái hậu nhiếp chính thì bị hãm hại. Sau khi được trọng sinh, Bảo Ninh luôn ám ảnh với mọi chuyện xảy ra với mình nên nàng chỉ muốn sống một cuộc đời bình yên bên người thân và bạn bè. Nhờ vào sự thông minh cùng năng lực của bản thân nên nàng đã cân bằng mọi thế lực triều đình và cuối cùng có được hạnh phúc. Người đồng hành cùng Khương Bảo Ninh chính là Lý Khiêm (Tăng Thuấn Hy đóng), người yêu say đắm nữ chính Gia Nam Truyện ở kiếp trước nhưng sau khi trọng sinh thì anh quyết định khiến nàng trở về bên mình.
+                                    </p>
+                                </div>
+    
+                                <div class="content-info_list row">
+                                    <a href="#" class="content-info_item col l-2 m-2 c-4">
+                                        <div class="content-info_img">
+                                            <img src="./assets/img/z-hei-info.jpg" alt="">
+                                        </div>
+                                        <div class="content-info_name">Zhi Lei</div>
+                                        <div class="content-info_type">Đạo diễn</div>
+                                    </a>
+                                    <a href="" class="content-info_item col l-2 m-2 c-4">
+                                        <div class="content-info_img">
+                                            <img src="./assets/img/Cúc-Tịnh-Y-info.jpg" alt="">
+                                        </div>
+                                        <div class="content-info_name">Cúc Tịnh Y</div>
+                                        <div class="content-info_type">Diễn viên chính</div>
+                                    </a>
+                                    <a href="" class="content-info_item col l-2 m-2 c-4">
+                                        <div class="content-info_img">
+                                            <img src="./assets/img/Tăng-Thuấn-Hy-info.jpg" alt="">
+                                        </div>
+                                        <div class="content-info_name">Tăng Thuấn Hy</div>
+                                        <div class="content-info_type">Diễn viên chính</div>
+                                    </a>
+                                    <a href="" class="content-info_item col l-2 m-2 c-4">
+                                        <div class="content-info_img">
+                                            <img src="./assets/img/Marius-info.jpg" alt="">
+                                        </div>
+                                        <div class="content-info_name">Marius</div>
+                                        <div class="content-info_type">Diễn viên chính</div>
+                                    </a>
+                                    <a href="" class="content-info_item col l-2 m-2 c-4">
+                                        <div class="content-info_img">
+                                            <img src="./assets/img/Eating,Wang Yi Ting.jpg" alt="">
+                                        </div>
+                                        <div class="content-info_name">Eating Wang Yi Ting</div>
+                                        <div class="content-info_type">Diễn viên chính</div>
+                                    </a>
+                                    <a href="" class="content-info_item col l-2 m-2 c-4">
+                                        <div class="content-info_img">
+                                            <img src="./assets/img/Li Yun Rui-info.jpg" alt="">
+                                        </div>
+                                        <div class="content-info_name">Li Yun Rui</div>
+                                        <div class="content-info_type">Diễn viên chính</div>
+                                    </a>
+                                </div>
+    
+                                <div class="content-info_buttons">
+                                    <div class="content-info_btn">
+                                        <i class="fas fa-arrow-down"></i>
+                                        Tải APP
+                                    </div>
+                                    <div class="content-info_btn">
+                                        <i class="fas fa-bookmark"></i>
+                                        Thêm vào lưu trữ
+                                    </div>
+                                    <div class="content-info_btn">
+                                        <i class="fas fa-share-square"></i>
+                                        Chia sẻ
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="play_content-right">
+                            <div class="play_content-rank">
+                               <h3 class="play_content-rank-title">Bảng Xếp Hạng</h3>
+                               <ul class="play_content-rank-list">
+                                   <li class="play_content-rank-item">
+                                       <a href="" class="play_content-rank-link">
+                                           <p>
+                                               <span>1</span>
+                                               Bí mật nơi góc tối
+                                           </p>
+                                           <img src="./assets/img/rank-img1.jpg" alt="">
+                                       </a>
+                                   </li>
+                                   <li class="play_content-rank-item">
+                                       <a href="" class="play_content-rank-link">
+                                           <p>
+                                               <span>2</span>
+                                               One Piece (Đảo Hải Tặc)
+                                           </p>
+                                           <img src="./assets/img/rank-img2.jpg" alt="">
+                                       </a>
+                                   </li>
+                                   <li class="play_content-rank-item">
+                                        <a href="" class="play_content-rank-link">
+                                            <p>
+                                                <span>3</span>
+                                                Hạ Tiên Sinh Lưu Luyến Không Quên (Nỗi Vương Vấn Của Hạ Tiên Sinh)
+                                            </p>
+                                            <img src="./assets/img/rank-img3.jpg" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="play_content-rank-item">
+                                        <a href="" class="play_content-rank-link">
+                                            <p>
+                                                <span>4</span>
+                                                Bạn Gái Lầu Dưới Xin Hãy Ký Nhận
+                                            </p>
+                                            <img src="./assets/img/rank-img4.jpg" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="play_content-rank-item">
+                                        <a href="" class="play_content-rank-link">
+                                            <p>
+                                                <span>5</span>
+                                                【Thuyết minh】Một Đời Một Kiếp (Nhất Sinh Nhất Thế)'
+                                            </p>
+                                            <img src="./assets/img/rank-img5.jpg" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="play_content-rank-item">
+                                        <a href="" class="play_content-rank-link">
+                                            <p>
+                                                <span>6</span>
+                                                Trường An như cố
+                                            </p>
+                                            <img src="./assets/img/rank-img6.jpg" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="play_content-rank-item">
+                                        <a href="" class="play_content-rank-link">
+                                            <p>
+                                                <span>7</span>
+                                                Bác sĩ xứ lạ
+                                            </p>
+                                            <img src="./assets/img/rank-img7.jpg" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="play_content-rank-item">
+                                        <a href="" class="play_content-rank-link">
+                                            <p>
+                                                <span>8</span>
+                                                Nửa Là Đường Mật Nửa Là Đau Thương
+                                            </p>
+                                            <img src="./assets/img/rank-img8.jpg" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="play_content-rank-item">
+                                        <a href="" class="play_content-rank-link">
+                                            <p>
+                                                <span>9</span>
+                                                Đối tác đáng ngờ
+                                            </p>
+                                            <img src="./assets/img/rank-img9.jpg" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="play_content-rank-item">
+                                        <a href="" class="play_content-rank-link">
+                                            <p>
+                                                <span>10</span>
+                                                Học viện quân sự Liệt Hỏa
+                                            </p>
+                                            <img src="./assets/img/rank-img10.jpg" alt="">
+                                        </a>
+                                    </li>
+                               </ul> 
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+        
+        </div>
+        
+
+        <div class="footer">
+            <div class="footer-wrapper grid wide">
+                <div class="footer_top">
+                    <div class="footer_top-language">
+                        <i class="ti-world"></i>
+                        <span>Tiếng Việt</span>
+                    </div>
+
+                    <div class="footer_top-socials">
+                        <a href="#">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer_helpcenter row">
+                    <div class="footer_helpcenter-section col l-3 m-6 c-12">
+                        <h5 class="footer_helpcenter-title">Giới thiệu về chúng tôi</h5>
+                        <div class="footer_helpcenter-list">
+                            <a href="#" class="footer_helpcenter-item">Thông tin công ty</a>
+                            <a href="#" class="footer_helpcenter-item">Giới thiệu về dịch vụ sản phẩm</a>
+                        </div>
+                    </div>
+                    <div class="footer_helpcenter-section col l-3 m-6 c-12">
+                        <h5 class="footer_helpcenter-title">Hợp tác</h5>
+                        <div class="footer_helpcenter-list">
+                            <a href="#" class="footer_helpcenter-item">Đăng quảng cáo</a>
+                            <a href="#" class="footer_helpcenter-item">Quan hệ kinh doanh</a>
+                            <a href="#" class="footer_helpcenter-item">Hợp tác cài đặt trước</a>
+                        </div>
+                    </div>
+                    <div class="footer_helpcenter-section col l-3 m-6 c-12">
+                        <h5 class="footer_helpcenter-title">Hỗ trợ và giúp đỡ</h5>
+                        <div class="footer_helpcenter-list">
+                            <a href="#" class="footer_helpcenter-item">Phản ánh ý kiến</a>
+                            <a href="#" class="footer_helpcenter-item">Trung tâm phản hồi bảo mật</a>
+                            <a href="#" class="footer_helpcenter-item">Câu hỏi thường gặp</a>
+                        </div>
+                    </div>
+                    <div class="footer_helpcenter-section col l-3 m-6 c-12">
+                        <h5 class="footer_helpcenter-title">Điều khoản dịch vụ</h5>
+                        <div class="footer_helpcenter-list">
+                            <a href="#" class="footer_helpcenter-item">Điều khoản quyền riêng tư</a>
+                            <a href="#" class="footer_helpcenter-item">Điều khoản sử dụng</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_bottom">
+                    <div class="footer_getapp-link">
+                        <a href="#">
+                            <img src="./assets/img/Apple.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/Google.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="footer_getapp-search">
+                        <div class="footer_getapp-keyword">
+                            <img src="./assets/img/pc-footer-icon.png" alt="">
+                        </div>
+                        <span>Tìm kiếm trong cửa hàng thiết bị dành cho di động</span>
+
+                    </div>
+                    <div class="footer_copyright">
+                        <p>Chúng tôi sử dụng Cookies để cải thiện trải nghiệm sử dụng của bạn. Nếu bạn tiếp tục sử dụng trang web của chúng tôi, có nghĩa là bạn đồng ý chúng tôi sử dụng Cookies. Đọc <a href="#">Chính sách quyền riêng tư iQIYI </a></p>
+                        <p>Copyright © 2021 iQiyi All Rights Reserved</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-join-vip" class="modal">
+            <div class="modal-overlay"></div>
+            <div class="modal-container">
+                <div class="modal_close">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="modal_header">
+                    <h3>Vui lòng chọn gói phù hợp với bạn</h3>
+                    <h5>Xem và thưởng thức iQIYI không giới hạn</h5>
+                </div>
+                <div class="modal_body row">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="modal_package modal_package--has-tag active">
+
+                            <h5 class="modal_package-title">Tiêu chuẩn</h5>
+                            <h5 class="modal_package-subtitle">Gói gia hạn tháng</h5>
+                            <div class="modal_package-price">
+                                <span>18000 đ</span>
+                                <span>30220 đ</span>
+                            </div>
+                            <div class="modal_package-detail">
+                                Sau khi khuyến mãi kết thúc tiếp tục gia hạn với 39000,đ.<br> Tự động gia hạn 1 tháng khi hết hạn. Hủy bỏ bất cứ lúc nào.
+                            </div>
+                            <div class="modal_package-privilege">
+                                <p>
+                                    <i class="fas fa-check"></i> 2 thiết bị
+                                </p>
+                                <p>
+                                    <i class="fas fa-check"></i> Blu-ray 1080P
+                                </p>
+                                <p>
+                                    <i class="fas fa-check"></i> Nội dung độc quyền
+                                </p>
+                                <p>
+                                    <i class="fas fa-check"></i> Tải về nội dung thành viên
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="modal_package">
+                            <h5 class="modal_package-title">Tiêu chuẩn</h5>
+                            <h5 class="modal_package-subtitle">Gói gia hạn theo quý</h5>
+                            <div class="modal_package-price">
+                                <span>10900 đ</span>
+                                <span></span>
+                            </div>
+                            <div class="modal_package-detail">
+                                Lần sau tiếp tục gia hạn với 109000 đ.<br> Tự động gia hạn 3 tháng khi hết hạn. Hủy bỏ bất cứ lúc nào.
+                            </div>
+                            <div class="modal_package-privilege">
+                                <p>
+                                    <i class="fas fa-check"></i> 2 thiết bị
+                                </p>
+                                <p>
+                                    <i class="fas fa-check"></i> Blu-ray 1080P
+                                </p>
+                                <p>
+                                    <i class="fas fa-check"></i> Nội dung độc quyền
+                                </p>
+                                <p>
+                                    <i class="fas fa-check"></i> Tải về nội dung thành viên
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="modal_package">
+                            <h5 class="modal_package-title">Tiêu chuẩn</h5>
+                            <h5 class="modal_package-subtitle">Gói gia hạn năm</h5>
+                            <div class="modal_package-price">
+                                <span>399000 đ</span>
+                                <span></span>
+                            </div>
+                            <div class="modal_package-detail">
+                                Lần sau tiếp tục gia hạn với 390000 đ. <br> Tự động gia hạn 12 tháng khi hết hạn. Hủy bỏ bất cứ lúc nào.
+                            </div>
+                            <div class="modal_package-privilege">
+                                <p>
+                                    <i class="fas fa-check"></i> 2 thiết bị
+                                </p>
+                                <p>
+                                    <i class="fas fa-check"></i> Blu-ray 1080P
+                                </p>
+                                <p>
+                                    <i class="fas fa-check"></i> Nội dung độc quyền
+                                </p>
+                                <p>
+                                    <i class="fas fa-check"></i> Tải về nội dung thành viên
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal_footer row">
+                    <div class="modal_btn col l-6">
+                        Tiếp tục
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-down-app" class="modal">
+            <div class="modal-overlay"></div>
+            <div class="modal-container">
+                <div class="modal_close">
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="modal_header">
+                    <h3>Tải về IQIYI APP</h3>
+                    <h5>Quét mã bằng điện thoại di động tải xuống</h5>
+                </div>
+
+                <div class="modal_body">
+                    <div class="modal_download-qr">
+                        <img src="./assets/img/pc-header-qrcode.png" alt="">
+                    </div>
+                    <div class="modal_download-divide">
+                        <span>OR</span>
+                    </div>
+
+                    <div class="modal_download-link-wrap">
+                        <p>Sao chép đường link gửi vào điện thoại để mở</p>
+                        <div class="modal_download-link-input">
+                            <input type="text" value="https://iqiyi.cn/cnqka">
+                            <button>Sao chép</button>
+                        </div>
+                    </div>
+
+                    <div class="modal_download-store">
+                        <a href="#">
+                            <img src="./assets/img/Apple.png" alt="">
+                        </a>
+
+                        <a href="#">
+                            <img src="./assets/img/Google.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-login" class="modal">
+            <div class="modal-overlay"></div>
+            <div class="modal-container">
+                    <div class="modal_close">
+                        <i class="fas fa-times"></i>
+                    </div>
+
+                    <div class="modal_header">
+                        <h3>Đăng nhập</h3>
+                        <h5> Bạn có thể quản lý tài khoản sau khi đăng nhập, có thể đồng bộ lịch sử xem và mục yêu thích trên nhiều đầu cuối. </h5>
+                    </div>
+
+                    <div class="modal_body">
+                        <div class="modal_login-btn modal-password">
+                            <span class="pass_modal-login--icon modal_password-icon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                            <span class="pass_modal-login--text modal_password-text">Đăng nhập bằng mật khẩu</span>
+                        </div>
+
+                        <div class="modal_login-btn modal-sms">
+                            <span class="pass_modal-login--icon modal_sms-icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                            <span class="pass_modal-login--text modal_sms-icon">Đăng nhập bằng SMS</span>
+                        </div>
+
+                        <div class="modal_login-btn modal-google">
+                            <span class="pass_modal-login--icon modal_gg-icon"><i class="fab fa-google" aria-hidden="true"></i></span>
+                            <span class="pass_modal-login--text modal_gg-icon">Đăng nhập bằng Google</span>
+                        </div>
+
+                        <div class="modal_login-btn modal-fb">
+                            <span class="pass_modal-login--icon modal_fb-icon"><i class="fab fa-facebook-square"></i></span>
+                            <span class="pass_modal-login--text modal_fb-icon">Đăng nhập bằng Facebook</span>      
+                        </div>
+                    </div>
+
+                    <div class="modal_footer">
+                        <p>
+                            Nhấn chọn " Đăng nhập " có nghĩa là bạn đã đọc và đồng ý  
+                            <a href="#"  target="_blank" >Thỏa thuận quyền riêng tư</a>&
+                            <a href="#" target="_blank">Điều khoản dịch vụ</a>
+                            , đồng thời có nghĩa là bạn xác nhận đã tròn 13 tuổi có thể sử dụng dịch vụ của chúng tôi.
+                        </p>
+                        <div class="footer_login-tip">
+                            <span>Bạn đã có tài khoản?</span>
+                            <span style="color: var(--main-color);">Đăng ký</span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
